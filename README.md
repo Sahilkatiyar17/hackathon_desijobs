@@ -1,2 +1,2 @@
 # hackathon_desijobs
-first hackathon- desijobs , we are made a website to provide jobs in rurals area
+This is a dedicated platform aimed at bridging the employment gap in rural areas by providing accessible job listings and postings. Our mission is to connect rural talent with local opportunities, empowering communities and supporting economic growth at the grassroots level. Whether you’re an employer looking to hire skilled workers or a job seeker searching for the right opportunity in your village or nearby areas, DesiJobs is your go-to resource for finding the perfect match. Join us in building a stronger, self-reliant rural workforce.
