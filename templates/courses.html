@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DesiJobs - Courses</title>
+    <link rel="stylesheet" href="css/courses.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Navigation bar styling */
+        nav {
+            display: flex;
+            align-items: center;
+            height: 60px;
+            background-color: slateblue;
+            padding: 0 20px;
+        }
+        
+        /* Logo or icon styling */
+        .icon {
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        img {
+            height: 50px;
+            width: 50px;
+        }
+        
+        /* Link styling within the navigation bar */
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin-left: 20px;
+            font-size: 1em;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+        }
+        
+        /* Hover effect for navigation links */
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Search form styling */
+        .search-form {
+            margin-left: auto;
+            margin-right: 20px;
+            display: flex;
+        }
+        
+        nav input[type="text"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+            width: 250px;
+        }
+        
+        .search {
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            background-color: #f0f0f0;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+        }
+        
+        .search i {
+            font-size: 1em;
+            color: #333;
+        }
+        
+        /* Main Styling */
+        main {
+            padding: 20px;
+            height: 630px;
+        
+        }
+        
+        .holder {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .container {
+            height: auto;
+            width: 300px;
+            background-color: #50aaff;
+            margin: 20px;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 241, 189);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+        
+        .container h3 {
+            text-align: center;
+            text-decoration: underline;
+            color: #5f0d78;
+            margin-bottom: 15px;
+        }
+        
+        .container p {
+            color: #312415;
+            line-height: 1.5;
+        }
+        
+        .container ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        
+        .btn {
+            display: block;
+            width: 100%;
+            height: 40px;
+            margin-top: 20px;
+            background-color: rgb(255, 188, 4);
+            color: black;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .btn:hover {
+            background-color: greenyellow;
+        }
+        
+        /* Footer styling */
+        footer {
+            color: white;
+            background-color: slateblue;
+            text-align: center;
+            padding: 15px 20px;
+            font-size: 0.9em;
+        }
+        
+        /* Footer link styling */
+        footer a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+        }
+        
+        /* Hover effect for footer links */
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive design adjustments */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                height: auto;
+                padding: 10px 20px;
+            }
+        
+            nav a,
+            .out {
+                margin: 10px 0;
+                margin-left: 0;
+                font-size: 1.1em;
+            }
+        
+            .search-form {
+                width: 100%;
+                margin: 10px 0;
+            }
+        
+            nav input[type="text"] {
+                width: 100%;
+            }
+        
+            main {
+                padding: 10px;
+            }
+        
+            .holder {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .container {
+                width: 100%;
+                max-width: 600px;
+            }
+        
+            footer {
+                padding: 10px 15px;
+                font-size: 0.85em;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="icon">
+          <a href="/">
+            Desijobs
+          </a>
+        </div>
+        <a href="/about/">About Us</a>
+        <a href="/">Home</a>
+        <form action="" class="search-form">
+          <input type="text" placeholder="Search courses" />
+          <button class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <div class="out"><a href="index.html">Log Out</a></div>
+      </nav>
+    </header>
+    <main>
+      <div class="holder">
+        <div class="container">
+            <h3>Agriculture Course</h3>
+            <p>The course covers effective farming techniques to maximize results. Topics include:
+                <ul>
+                  <li>Soil conservation and management</li>
+                  <li>Precision irrigation and water management</li>
+                </ul>
+            </p>
+            <a href="https://youtu.be/FyOzeO6fQwI?feature=shared" class="btn">Reference Video</a>
+        </div>
+        <div class="container">
+            <h3>Irrigation Course</h3>
+            <p>Learn how to implement effective irrigation practices to conserve water. Topics include:
+                <ul>
+                  <li>Water-saving techniques</li>
+                  <li>Precision irrigation and water management</li>
+                </ul>
+            </p>
+            <a href="https://youtu.be/-siI8gbAT0A?feature=shared" class="btn">Reference Video</a>
+        </div>
+        <div class="container">
+            <h3>Business Course</h3>
+            <p>Strategies for selling crops and dealing with dealers. Topics include:
+                <ul>
+                  <li>Maximizing crop sale rates</li>
+                  <li>Negotiation tactics with dealers</li>
+                </ul>
+            </p>
+            <a href="https://youtu.be/Oky--xn5-Zg?feature=shared" class="btn">Reference Video</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Contact us - <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+    </footer>
+  </body>
+</html>

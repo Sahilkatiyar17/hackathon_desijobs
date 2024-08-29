@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesiJobs</title>
+    <link rel="stylesheet" href="css/about.css">
+    <style>
+        /* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #adbbda;
+}
+
+/* Navigation bar styling */
+nav {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: slateblue;
+  padding: 0 20px;
+}
+
+/* Logo or icon styling */
+.icon img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Link styling within the navigation bar */
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 1em;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Log out button styling */
+.out {
+  margin-left: auto;
+}
+
+.out a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+  padding: 2em;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  color: #2a2a2a;
+  margin-bottom: 0.5em;
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.video-section {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.video iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  padding: 2em;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.description h2 {
+  font-size: 2em;
+  color: slateblue;
+  margin-bottom: 1em;
+}
+
+.description p, .description ul {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.6em;
+  margin-bottom: 1.5em;
+}
+
+.description ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Footer styling */
+footer {
+  color: white;
+  background-color: slateblue;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 0.9em;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 20px;
+  }
+
+  nav a,
+  .out {
+      margin: 10px 0;
+      font-size: 1.1em;
+  }
+
+  main {
+      padding: 15px;
+  }
+
+  .intro h1 {
+      font-size: 2em;
+  }
+
+  .video iframe {
+      height: 300px;
+  }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="icon"><a href="/">Desijobs</a></div>
+            <a href="/">Home</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Desi Jobs: Bridging the Gap between Villages and Employment</h1>
+            <p>Your go-to platform for finding employment opportunities in rural areas.</p>
+        </section>
+        <section class="video-section">
+            <h2>How to Work with Desi Jobs:</h2>
+        </br>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/lk1GH8AnqCg" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="description">
+            <h2>Welcome to DesiJobs</h2>
+            <p>We believe that everyone deserves access to job opportunities, regardless of their location. That's why we created DesiJobs, a platform dedicated to connecting rural job seekers with local employers.</p>
+
+            <h2>Our Mission</h2>
+            <p>Our mission is to bridge the employment gap in rural areas by providing a user-friendly platform for job seekers to find employment opportunities and for employers to find skilled workers. We aim to promote economic growth, reduce unemployment, and improve the quality of life for rural communities.</p>
+
+            <h2>Our Story</h2>
+            <p>DesiJobs was founded by a team passionate about rural development with a vision to make a difference. Our team consists of dedicated individuals committed to delivering high-quality service.</            </p>
+
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Empowerment:</strong> We empower rural job seekers to take control of their career paths.</li>
+                <li><strong>Connection:</strong> We connect local employers with the right talent.</li>
+                <li><strong>Community:</strong> We foster a sense of community by promoting local employment.</li>
+                <li><strong>Inclusivity:</strong> We strive to make our platform accessible to all.</li>
+            </ul>
+
+            <h2>Our Goal</h2>
+            <p>Our goal is to become the go-to platform for rural job seekers and employers, providing a seamless and efficient experience.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us - <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+    </footer>
+</body>
+</html>

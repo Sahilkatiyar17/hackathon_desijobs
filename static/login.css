@@ -1,0 +1,132 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background color */
+body {
+    background-color: rgb(178, 166, 255);
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styling */
+nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: slateblue;
+    padding: 0 20px;
+}
+
+/* Logo or icon styling */
+.icon {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 50px;
+}
+
+/* Link styling within the navigation bar */
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;   
+}
+  nav a:hover{
+      text-decoration: underline;
+      color: white;
+      margin: 15px;
+    }
+    body{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/017/067/267/original/purple-gradient-background-art-free-vector.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    main{
+        height: 645px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        backdrop-filter: blur(100px);
+        height: 450px;
+        width: 450px;
+        border-radius: 5%;
+        border: 2px solid white;
+        box-shadow: 5px 5px 0 0;
+        text-align: center;
+    }
+    form{
+        margin: 15px;
+    }
+    h1{
+        margin-bottom: 20px;
+        font-weight: 1000;
+        color: rgb(21, 21, 21);
+    }
+    p{
+        text-decoration: dotted;
+        margin-top: 5px;
+        font-weight: 250;
+    }
+    input{
+        margin-bottom: 25px;
+        border-radius: 5px;
+        padding: 5px;
+        box-shadow: 0 5px;
+    }
+    .button1{
+        margin: 5px;
+        margin-top: 25px;
+        padding: 5px;
+        backdrop-filter: blur(25px);
+        background-color: aliceblue;
+        color: rgb(0, 0, 0);
+        box-shadow: none;
+        height: 50px;
+        width: 250px;
+        cursor: pointer;
+    }
+    .button1:hover{
+        margin: 5px;
+        margin-top: 25px;
+        padding: 5px;
+        backdrop-filter: blur(25px);
+        background-color: slateblue;
+        color: black;
+        box-shadow: none;
+        height: 50px;
+        width: 250px;
+        cursor: pointer;
+    }
+
+    nav a {
+        margin: 10px 0;
+        margin-left: 0;
+        font-size: 1.1em;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 10px 15px;
+        font-size: 0.85em;
+        background-color: slateblue;
+        text-align: center;
+        color: white;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+    footer a:hover{
+        text-decoration: underline;
+        color: white;
+
+    }
